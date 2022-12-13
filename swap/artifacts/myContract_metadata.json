@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.8.6+commit.11564f7e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "a",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "b",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "swap",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"swap.sol": "myContract"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"swap.sol": {
+			"keccak256": "0xa8b5c4fbe88ff560f1d765036c604a9c60e5ea896f3ef0ac53cbfc8b0057e23d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b91d48224520be12a4a03f14eb60c5ab9421c73a2aaffedc8d2ea879768fcb29",
+				"dweb:/ipfs/QmdPVv7D86fiQBDFf57GMdX9CTaBxtqL7f2vqM1bY6CLpu"
+			]
+		}
+	},
+	"version": 1
+}
